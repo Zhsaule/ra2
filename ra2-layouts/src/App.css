@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.store {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.cards-view {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.iconswitch {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 15px 15px;
+}
+
+.iconswitch-button {
+  color: darkgrey;
+  text-align: right;  
+  cursor: pointer;
+}
+
+.iconswitch-button .material-icons {
+  font-size: 36px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin: 20px 16px;
+  background-size: 300px 300px;
+  box-shadow: 0 8px 13px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card-name {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 10px 0px;
+  transform: scale(0.9, 1.4);
+}
+
+.card-color {
+  font-size: 16px;
+  color: darkgray;
+}
+
+.card-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 185px;
+  color: rgb(161, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-button {
+  padding: 5px 10px;
+  border: 2px solid rgb(161, 0, 0);
+  border-radius: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.list-view {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5px;
+  background-color: whitesmoke;
+}
+
+.item-img {
+  width: 150px;
+  height: 80px;
+  background-size: 150px 150px;
+  background-position: 50% 70%;
+}
+
+.item-name {
+  font-size: 24px;
+  text-transform: uppercase;
+  transform: scale(0.9, 1.4);
+}
+
+.item-color {
+  color: darkgray;
+}
+
+.item-price {
+  color: rgb(161, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.item-button {
+  margin-right: 15px;
+  padding: 5px 10px;
+  border: 2px solid rgb(161, 0, 0);
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: rgb(161, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.portfolio {
+  margin: 0 auto;
+}
+
+@media (min-width: 300px) and (max-width: 639px) {
+  .portfolio {
+    width: 310px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+  .portfolio {
+    width: 620px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .portfolio {
+    width: 940px;
+  }
+}
+
+.active {
+  border-color: #646cff;
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.projectlist {
+  column-count: auto;
+  column-width: 300px;
+  margin-top: 10px;
+}
+
+.projectlist-img {
+  box-sizing: border-box;
+  width: 300px;
+  padding: 15px;
+}
